@@ -80,7 +80,7 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
         
-    - name: 上传 文件
+    - name: exchange
       run: |
         chmod +x $DIY_P3_SH
         $GITHUB_WORKSPACE/$DIY_P3_SH
